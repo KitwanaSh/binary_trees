@@ -3,8 +3,8 @@
 /**
  * binary_tree_insert_left: inserts a node as a
     left-child node of another
- * parent: the parent node
- * value: the value of the node
+ * @parent: the parent node
+ * @value: the value of the node
  * Return: a pointer to the created node
         or NULL on failure of if parent is NULL
 */
