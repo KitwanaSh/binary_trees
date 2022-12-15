@@ -2,8 +2,8 @@
 
 /**
  * binary_tree_insert_right - insert a node to the right
- * parent: the parent child or new parent
- * value: the value to inset in the one
+ * @parent: the parent child or new parent
+ * @value: the value to inset in the one
  * Return: a pointer to the created node
 */
 
