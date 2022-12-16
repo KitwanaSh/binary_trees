@@ -25,6 +25,7 @@ struct binary_tree_s
 
 typedef struct binary_tree_s binary_tree_t;
 typedef struct binary_tree_s bst_t;
+typedef struct binary_tree_s avl_t;
 
 /*===================== the primium tasks =======================*/
 void binary_tree_print(const binary_tree_t *);
@@ -58,5 +59,6 @@ binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree);
 bst_t *bst_insert(bst_t **tree, int value);
 bst_t *array_to_bst(int *array, size_t size);
 bst_t *bst_search(const bst_t *tree, int value);
+int binary_tree_is_avl(const binary_tree_t *tree);
 
 #endif
